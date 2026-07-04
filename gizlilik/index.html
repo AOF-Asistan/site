@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — AÖF Asistan</title>
+<style>
+  :root { --bg:#ffffff; --metin:#14202c; --ikincil:#5c6b7a; --border:#e3e7ee; --aksan:#6C63FF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0a1220; --metin:#eaf2fb; --ikincil:#8fa3b8; --border:#1d2c3d; }
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--metin); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+         line-height:1.65; padding:40px 20px 80px; }
+  main { max-width:720px; margin:0 auto; }
+  h1 { font-size:28px; letter-spacing:-.4px; margin-bottom:6px; }
+  .tarih { color:var(--ikincil); font-size:14px; margin-bottom:32px; }
+  h2 { font-size:19px; margin:34px 0 10px; letter-spacing:-.2px; }
+  p, li { font-size:15.5px; color:var(--metin); margin-bottom:10px; }
+  ul { padding-left:22px; margin-bottom:12px; }
+  li { margin-bottom:6px; }
+  strong { font-weight:700; }
+  a { color:var(--aksan); }
+  .kutu { border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin:16px 0; font-size:14.5px; }
+  table { width:100%; border-collapse:collapse; margin:12px 0 16px; font-size:14px; }
+  th, td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { font-size:12px; text-transform:uppercase; letter-spacing:.8px; color:var(--ikincil); }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--ikincil); font-size:13.5px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gizlilik Politikası</h1>
+  <p class="tarih">AÖF Asistan · Son güncelleme: 4 Temmuz 2026</p>
+
+  <p>Bu politika, <strong>AÖF Asistan</strong> mobil uygulamasını ("Uygulama") kullandığınızda hangi verilerin, hangi amaçlarla ve nasıl işlendiğini açıklar. Uygulama, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") ve yürürlükteki diğer veri koruma düzenlemelerine uygun hareket etmeyi taahhüt eder.</p>
+
+  <h2>1. İletişim</h2>
+  <p>Uygulama bağımsız bir geliştirici tarafından yayımlanmaktadır. Bu politikayla ilgili tüm soru ve talepleriniz için: <a href="mailto:info@aofasistan.com">info@aofasistan.com</a></p>
+
+  <h2>2. Toplanan Veriler</h2>
+  <p>Uygulama, sizden ad, soyad, e-posta, telefon numarası gibi <strong>kimlik bilgisi istemez</strong>; üye kaydı ve şifre yoktur. İşlenen veriler şunlardır:</p>
+  <table>
+    <tr><th>Veri</th><th>Nerede tutulur</th><th>Amaç</th></tr>
+    <tr><td>Anonim hesap kimliği (rastgele üretilen bir tanımlayıcı)</td><td>Sunucularımızda</td><td>Elmas bakiyenizin ve satın almalarınızın cihazlar arası tutarlı çalışması</td></tr>
+    <tr><td>Elmas bakiyesi ve harcama/kazanım kayıtları</td><td>Sunucularımızda</td><td>Uygulama içi ekonomi ve dolandırıcılık önleme</td></tr>
+    <tr><td>Satın alma kayıtları (ürün, tarih; kart bilgisi DEĞİL)</td><td>Apple &amp; RevenueCat</td><td>Satın almanın doğrulanması ve teslimi</td></tr>
+    <tr><td>Yapay zekâ açıklaması istenen soru içeriği</td><td>Sunucularımızda (önbellek)</td><td>Açıklamanın üretilmesi ve aynı soru için tekrar üretim maliyetinin önlenmesi</td></tr>
+    <tr><td>Sınav geçmişi, istatistikler, seçilen bölüm, tema tercihi</td><td><strong>Yalnızca cihazınızda</strong></td><td>Uygulama deneyimi; sunucuya gönderilmez</td></tr>
+    <tr><td>Reklam kimliği (IDFA/AAID) ve reklam etkileşim verileri</td><td>Google AdMob</td><td>Yalnızca sizin başlattığınız ödüllü reklamların gösterimi ve ödül doğrulaması</td></tr>
+  </table>
+  <div class="kutu">Cihazınızda tutulan veriler (sınav geçmişi, tercihleriniz) uygulamayı sildiğinizde tamamen silinir; ayrıca Profil ekranındaki "Sıfırla" ile sınav geçmişinizi istediğiniz an temizleyebilirsiniz.</div>
+
+  <h2>3. İşleme Amaçları ve Hukuki Sebep</h2>
+  <p>Verileriniz; hizmetin sunulması ve sözleşmenin ifası (KVKK m.5/2-c), meşru menfaat kapsamında hizmet güvenliği ve iyileştirme (KVKK m.5/2-f) ile — reklam kimliği özelinde — açık rızanız (App Tracking Transparency izni) hukuki sebeplerine dayanarak işlenir.</p>
+
+  <h2>4. Üçüncü Taraf Hizmetler</h2>
+  <p>Uygulama aşağıdaki hizmet sağlayıcıları kullanır. Her biri verileri kendi gizlilik politikası çerçevesinde işler:</p>
+  <ul>
+    <li><strong>Supabase</strong> (veritabanı ve anonim kimlik doğrulama) — <a href="https://supabase.com/privacy">politika</a></li>
+    <li><strong>Google AdMob</strong> (ödüllü reklamlar) — <a href="https://policies.google.com/privacy">politika</a></li>
+    <li><strong>RevenueCat</strong> (satın alma altyapısı) — <a href="https://www.revenuecat.com/privacy">politika</a></li>
+    <li><strong>Apple App Store</strong> (ödeme işleme) — <a href="https://www.apple.com/legal/privacy/">politika</a></li>
+    <li><strong>Anthropic</strong> (yapay zekâ açıklamaları; yalnızca soru metni iletilir, kimliğiniz iletilmez) — <a href="https://www.anthropic.com/privacy">politika</a></li>
+  </ul>
+
+  <h2>5. Reklamlar ve Reklam Kimliği</h2>
+  <p>Uygulamada yalnızca <strong>sizin isteğinizle başlayan ödüllü reklamlar</strong> gösterilir; kesintili (banner/geçiş) reklam yoktur. Reklam gösterimi için Google AdMob, cihazınızın reklam kimliğini kullanabilir. iOS'ta bu, ancak <strong>App Tracking Transparency</strong> izni vermeniz hâlinde kişiselleştirilmiş olur; izin vermezseniz reklamlar kişiselleştirilmeden gösterilir ve uygulamanın hiçbir özelliği kısıtlanmaz. Reklam kimliğini cihaz ayarlarınızdan dilediğiniz zaman sıfırlayabilirsiniz.</p>
+
+  <h2>6. Satın Almalar</h2>
+  <p>Tüm satın almalar Apple App Store üzerinden gerçekleşir; kredi kartı bilgileriniz bize hiçbir aşamada ulaşmaz. İade talepleri Apple'ın <a href="https://support.apple.com/tr-tr/118223">iade süreci</a> üzerinden yürütülür.</p>
+
+  <h2>7. Çerezler</h2>
+  <p>Uygulama bir mobil uygulamadır ve web çerezi kullanmaz. Bu bilgilendirme sayfalarının barındığı site de çerez kullanmaz.</p>
+
+  <h2>8. Veri Saklama ve Silme</h2>
+  <p>Sunucuda tutulan anonim hesap verileri, hizmetin sunulması için gerekli olduğu sürece saklanır. Anonim hesabınızın ve ilişkili kayıtların silinmesini <a href="mailto:info@aofasistan.com?subject=Veri%20Silme%20Talebi">e-posta ile</a> talep edebilirsiniz; talepler KVKK'daki sürelere uygun olarak en geç 30 gün içinde sonuçlandırılır.</p>
+
+  <h2>9. KVKK Kapsamındaki Haklarınız</h2>
+  <p>KVKK'nın 11. maddesi uyarınca; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, amacına uygun kullanılıp kullanılmadığını öğrenme, aktarıldığı üçüncü kişileri bilme, düzeltilmesini veya silinmesini isteme, bu işlemlerin aktarılan üçüncü kişilere bildirilmesini isteme, otomatik sistemlerce analiz sonucu aleyhinize çıkan sonuçlara itiraz etme ve zarara uğramanız hâlinde tazminat talep etme haklarına sahipsiniz. Başvurularınızı yukarıdaki e-posta adresine iletebilirsiniz.</p>
+
+  <h2>10. Çocukların Gizliliği</h2>
+  <p>Uygulama yükseköğretim öğrencilerine yöneliktir ve 13 yaş altı çocuklardan bilerek veri toplamaz. Uygulama zaten kimlik bilgisi toplamadığından çocuklara ait kişisel veri işlenmesi söz konusu değildir; buna rağmen bir endişeniz varsa bizimle iletişime geçebilirsiniz.</p>
+
+  <h2>11. Yurt Dışına Aktarım</h2>
+  <p>Yukarıda sayılan hizmet sağlayıcıların sunucuları yurt dışında bulunabilir. Veriler bu sağlayıcılara yalnızca hizmetin sunulması için gerekli olduğu ölçüde ve ilgili mevzuata uygun güvenlik önlemleriyle aktarılır.</p>
+
+  <h2>12. Güvenlik</h2>
+  <p>Veriler aktarım sırasında şifrelenir (HTTPS/TLS). Sunucu tarafında erişim, yetkilendirilmiş servis anahtarlarıyla sınırlıdır.</p>
+
+  <h2>13. Diğer Uygulama ve Siteler</h2>
+  <p>Uygulama içinden erişilen üçüncü taraf site ve hizmetlerin gizlilik uygulamalarından ilgili taraflar sorumludur.</p>
+
+  <h2>14. Değişiklikler</h2>
+  <p>Bu politika güncellendiğinde yeni sürüm bu sayfada, güncelleme tarihiyle birlikte yayımlanır. Önemli değişiklikler uygulama içinden ayrıca duyurulabilir.</p>
+
+  <footer>
+    AÖF Asistan bağımsız bir çalışma aracıdır; Anadolu Üniversitesi ile bağlantılı değildir.<br>
+    Sorularınız için: <a href="mailto:info@aofasistan.com">info@aofasistan.com</a> · <a href="/destek/">Destek sayfası</a>
+  </footer>
+</main>
+</body>
+</html>
